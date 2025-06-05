@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: ghostwhite;
+}
+
+#li1,
+#li2,
+#li3,
+#li4,
+#li5,
+#li6,
+#li7,
+#li8,
+#li9,
+#li10,
+#li11,
+#li12,
+#li13,
+#li14,
+#li15,
+#li16,
+#li17,
+#li18,
+#li19,
+#li20,
+#li21 {
+  border-bottom: solid 1px black;
+}
+
+.li,
+img,
+#img {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+#img {
+  padding-top: 1.6vw;
+}
+
+.header,
+#name,
+#name2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 1.5vw;
+  color: ghostwhite;
+  padding-top: 1vw;
+  padding-bottom: 1.2vw;
+}
+
+#name,
+#name2 {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-left: 1px solid ghostwhite;
+  border-right: 1px solid ghostwhite;
+}
+
+.ol,
+.ol2 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.3vw;
+  text-align: left;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.8;
+  word-break: keep-all;
+  color: ghostwhite;
+  padding-top: 1vw;
+  border-left: 1px solid ghostwhite;
+  border-right: 1px solid ghostwhite;
+}
+
+li,
+#name,
+#name2,
+.header {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.container {
+  padding: 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 5vw;
+    padding: 10vw;
+  }
+
+  .ol,
+  .ol2 {
+    font-size: 3vw;
+  }
+
+  li,
+  #name,
+  #name2,
+  .header {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  #name,
+  #name2,
+  .header {
+    font-size: 3.5vw;
+    text-align: left;
+    padding-bottom: 3vw;
+  }
+}
