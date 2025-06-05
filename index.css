@@ -7,27 +7,7 @@ body {
   background: ghostwhite;
 }
 
-#li1,
-#li2,
-#li3,
-#li4,
-#li5,
-#li6,
-#li7,
-#li8,
-#li9,
-#li10,
-#li11,
-#li12,
-#li13,
-#li14,
-#li15,
-#li16,
-#li17,
-#li18,
-#li19,
-#li20,
-#li21 {
+#li1, #li2, #li3, #li4, #li5, #li6, #li7, #li8, #li9, #li10, #li11, #li12, #li13, #li14, #li15, #li16, #li17, #li18, #li19, #li20, #li21, #li22, #li23, #li24, #li25 {
   border-bottom: solid 1px black;
 }
 
@@ -36,6 +16,10 @@ img,
 #img {
   padding-top: 1vw;
   padding-bottom: 1vw;
+}
+
+.sideli {
+  padding-top: 1vw;
 }
 
 img {
@@ -48,8 +32,7 @@ img {
 }
 
 .header,
-#name,
-#name2 {
+#name {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   font-size: 1.5vw;
@@ -58,10 +41,7 @@ img {
   padding-bottom: 1.2vw;
 }
 
-#name,
-#name2 {
-  padding-left: 1vw;
-  padding-right: 1vw;
+#name {
   border-left: 1px solid ghostwhite;
   border-right: 1px solid ghostwhite;
 }
@@ -83,7 +63,6 @@ img {
 
 li,
 #name,
-#name2,
 .header {
   padding-left: 1vw;
   padding-right: 1vw;
@@ -110,14 +89,12 @@ li,
 
   li,
   #name,
-  #name2,
   .header {
     padding-left: 3vw;
     padding-right: 3vw;
   }
 
   #name,
-  #name2,
   .header {
     font-size: 3.5vw;
     text-align: left;
